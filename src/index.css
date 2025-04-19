@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+
+
+
+@theme {
+  --font-sans: 'Roboto', sans-serif;
+  --font-serif: 'Merriweather', serif;
+  --font-special: 'Lora', serif;
+
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+
+  
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components{
+
+  .skillIcon{
+    @apply text-center hover:text-teal-500 transition-all duration-200 ease-in-out hover:scale-110 hover:opacity-90 cursor-pointer;
+  }
+
+}
