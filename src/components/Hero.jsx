@@ -26,7 +26,7 @@ function Hero() {
 
         {/* Right Section */}
         <div className="rightSection w-full md:w-1/2 mt-6 md:mt-0">
-          <div className="imagecontainer flex justify-center">
+          <div className="imagecontainer flex justify-center ">
             <img
               src="/heroimg.jpg"
               className="w-48 h-48 md:w-100 md:h-100 rounded-full object-cover transition duration-300 hover:shadow-lg hover:shadow-teal-500/100 hover:scale-105"

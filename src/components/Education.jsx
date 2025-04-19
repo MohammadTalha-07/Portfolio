@@ -4,7 +4,7 @@ function Education() {
   return (
     <div className='bg-gradient-to-r  from-slate-900 to-gray-400 p-4' id="education">   
 
-        <div className="experienceContainer flex flex-col bg-gradient-to-r  from-[#161a25] to-[#20112e] text-white  
+        <div className="experienceContainer flex flex-col bg-gradient-to-r  from-[#161a25] to-[#20112e] text-white  sm:w-[80%]
                         m-auto p-6 mt-15 rounded-4xl ">
             <h1 className='text-white text-4xl font-extrabold text-center mb-2 p-4 mt-3'>Education</h1>
 
