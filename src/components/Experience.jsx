@@ -3,7 +3,7 @@ import React from 'react'
 function Experience() {
   return (
     <div className='bg-gradient-to-r from-slate-900 to-gray-400 p-6 sm:p-12' id="experience">
-      <div className="experienceContainer flex flex-col w-[95%] sm:w-[90%] m-auto rounded-4xl bg-gradient-to-r from-[#1f2937] to-[#111827] text-white">
+      <div className="experienceContainer flex flex-col w-[100%] sm:w-[90%] m-auto rounded-4xl bg-gradient-to-r from-[#1f2937] to-[#111827] text-white">
 
         <h1 className='text-3xl sm:text-4xl font-extrabold text-center text-white mb-4 p-4 mt-4'>Experience</h1>
 
