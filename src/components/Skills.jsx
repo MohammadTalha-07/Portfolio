@@ -13,7 +13,7 @@ import {
 
 function Skills() {
   return (
-    <section className="skillsContainer bg-gradient-to-r from-slate-900 to-gray-400 py-5" id="skills">
+    <section className="skillsContainer bg-gradient-to-r from-slate-900 to-gray-400 py-4" id="skills">
       <div className="w-[90%] md:w-[70%] lg:w-[60%] m-auto bg-gradient-to-r from-[#030712] to-gray-800 text-white rounded-3xl shadow-2xl p-8 border-2 border-teal-400">
         <h1 className="text-4xl font-extrabold text-center mb-8">My Skills</h1>
 

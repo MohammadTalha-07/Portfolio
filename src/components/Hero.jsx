@@ -2,8 +2,8 @@ import React from 'react';
 
 function Hero() {
   return (
-    <div className="heroContainer bg-gradient-to-r from-slate-900 to-gray-400" id="home">
-      <section className="flex flex-col md:flex-row px-4 items-center md:w-[80%] m-auto min-h-screen text-white">
+    <div className="heroContainer bg-gradient-to-r from-slate-900 to-gray-400 " id="home">
+      <section className="flex flex-col md:flex-row px-4 items-center md:w-[80%] m-auto  md:min-h-screen text-white">
         
         {/* Left Section */}
         <div className="leftSection w-full md:w-1/2 text-center md:text-left pt-10">
@@ -25,11 +25,11 @@ function Hero() {
         </div>
 
         {/* Right Section */}
-        <div className="rightSection w-full md:w-1/2 mt-6 md:mt-0">
-          <div className="imagecontainer flex justify-center ">
+        <div className="rightSection w-full md:w-1/2 mt-6 ">
+          <div className="imagecontainer flex justify-center items-center">
             <img
               src="/heroimg.jpg"
-              className="w-48 h-48 md:w-100 md:h-100 rounded-full object-cover transition duration-300 hover:shadow-lg hover:shadow-teal-500/100 hover:scale-105"
+              className="w-40 h-40 md:w-100 md:h-100 rounded-full object-cover transition duration-300 hover:shadow-lg hover:shadow-teal-500/100 hover:scale-105"
               alt="here is the image"
             />
           </div>
